@@ -1,0 +1,36 @@
+{
+  "name": "react-hydration-detect",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssssota/react-hydration-detect.git"
+  },
+  "files": ["index.js", "index.d.ts"],
+  "keywords": ["react", "hydration", "detect", "hook"],
+  "author": "TOMIKAWA Sotaro <tommysouta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssssota/react-hydration-detect/issues"
+  },
+  "homepage": "https://github.com/ssssota/react-hydration-detect#readme",
+  "packageManager": "pnpm@9.1.1",
+  "devDependencies": {
+    "react": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  }
+}
